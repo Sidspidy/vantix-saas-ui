@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+# Vantix OS ✦
+### Next-Gen AI-Native Operations Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vantix is a high-performance, futuristic SaaS interface designed for enterprise-scale operations. Built with a "Neural-First" philosophy, it combines AI-driven insights with real-time telemetry to provide a surgical view of your business orchestration.
 
-Currently, two official plugins are available:
+![Landing Page Mockup](https://raw.githubusercontent.com/Sidspidy/vantix-saas-ui/main/public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌌 Core Features
 
-## React Compiler
+### ✦ Neural Command Center (AI Assistant)
+Direct interface with Vantix Core AI. Perform natural language queries, system diagnostics, and revenue forecasting through an integrated chat environment with focused "Neural Modes."
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✦ Real-Time Telemetry & Analytics
+High-fidelity SVG-driven charts providing deep visibility into cluster throughput, neural latency, and regional allocation. Supports multiple data tiers (Cluster A, B, C) with interactive data points.
 
-## Expanding the ESLint configuration
+### ✦ Tactical Settings & Neural Config
+Full-spectrum control over operational protocols, security nodes, and interface aesthetics. Restored encryption nodes and regional locking for high-security environments.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### ✦ Modern Premium Aesthetic
+- **Dual-Tone Identity**: Crafted using the **Electric Blue × Violet** color spectrum.
+- **Fluid Geometry**: Consistent 24px card radius for a smooth, premium feel.
+- **Micro-Animations**: Leverages Framer Motion for structural transitions and interactive elements.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Framework**: React 18 + TypeScript
+- **Bundler**: Vite
+- **Styling**: Tailwind CSS + Vanilla CSS (Design Tokens)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **State**: Zustand (Neural Config & Theme Hub)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sidspidy/vantix-saas-ui.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd vantix
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the neural engine (development mode):
+   ```bash
+   npm run dev
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Project Structure
+
+- `src/pages`: Functional AI-ops interfaces (Dashboard, Analytics, AIAssistant, etc.)
+- `src/components`: Reusable premium UI components (Cards, Modals, Badges)
+- `src/layouts`: Persistent architectural shells (AppLayout, AuthLayout)
+- `src/store`: Global state management for system configs
+
+---
+
+**Built for observers. Orchestrated for leaders.**  
+© 2026 Vantix AI Inc. All rights reserved.
