@@ -1,67 +1,67 @@
-# Vantix OS ✦
-### Next-Gen AI-Native Operations Management
+# Vantix ✦ SaaS UI Kit
+### High-Fidelity Modern Dashboard & Design System
 
-Vantix is a high-performance, futuristic SaaS interface designed for enterprise-scale operations. Built with a "Neural-First" philosophy, it combines AI-driven insights with real-time telemetry to provide a surgical view of your business orchestration.
+Vantix is a premium, futuristic SaaS UI boilerplate designed for developers and designers who want to jumpstart their application's frontend with elite aesthetics. It features a "Neural-Design" aesthetic, optimized for high-performance dashboards and enterprise interfaces.
 
-![Landing Page Mockup](https://raw.githubusercontent.com/Sidspidy/vantix-saas-ui/main/public/preview.png)
+> [!NOTE]  
+> This is a **Frontend-Only** UI project. It provides high-fidelity mockups and interactive components (mocked AI chat, simulated analytics) but does not include a backend or actual AI model integrations.
 
-## 🌌 Core Features
+![Vantix Preview](https://raw.githubusercontent.com/Sidspidy/vantix-saas-ui/main/public/preview.png)
 
-### ✦ Neural Command Center (AI Assistant)
-Direct interface with Vantix Core AI. Perform natural language queries, system diagnostics, and revenue forecasting through an integrated chat environment with focused "Neural Modes."
+## 🌌 Premium UI Sections
 
-### ✦ Real-Time Telemetry & Analytics
-High-fidelity SVG-driven charts providing deep visibility into cluster throughput, neural latency, and regional allocation. Supports multiple data tiers (Cluster A, B, C) with interactive data points.
+### ✦ Interactive Dashboard Mockups
+A pre-built operational overview featuring KPI cards, team activity trackers, and sleek project grids—all using modern CSS glassmorphism and smooth hover states.
 
-### ✦ Tactical Settings & Neural Config
-Full-spectrum control over operational protocols, security nodes, and interface aesthetics. Restored encryption nodes and regional locking for high-security environments.
+### ✦ Simulated AI Assistant (UI)
+A highly polished chat interface designed to demonstrate AI integrations. It includes "Command Mode" styling, message threading, and responsive sidebar log management (simulated).
 
-### ✦ Modern Premium Aesthetic
-- **Dual-Tone Identity**: Crafted using the **Electric Blue × Violet** color spectrum.
-- **Fluid Geometry**: Consistent 24px card radius for a smooth, premium feel.
-- **Micro-Animations**: Leverages Framer Motion for structural transitions and interactive elements.
+### ✦ Visual Data Mastery
+Custom-built SVG sparklines and multi-layered charts that respond to theme changes. Designed to show how cluster performance and regional data can be visualized beautifully.
 
-## 🛠 Tech Stack
+### ✦ Full Design System
+- **Theme Hub**: Perfectly calibrated **Dark (Electric Blue × Violet)** and **Light** modes.
+- **Micro-Animations**: Extensive use of Framer Motion for structural "flowing" transitions.
+- **Component Library**: Reusable Buttons, Modals, Cards, and Badges with a consistent 24px premium radius.
 
-- **Framework**: React 18 + TypeScript
-- **Bundler**: Vite
-- **Styling**: Tailwind CSS + Vanilla CSS (Design Tokens)
+## 🛠 Frontend Tech Stack
+
+- **Core**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + Custom CSS Variables (Design Tokens)
+- **Architecture**: Vite (for lightning-fast HMR)
 - **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **State**: Zustand (Neural Config & Theme Hub)
+- **Iconography**: Lucide React
+- **State Hub**: Zustand (Theme & UI states)
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm or yarn
+## 🚀 Usage
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sidspidy/vantix-saas-ui.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd vantix
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-4. Start the neural engine (development mode):
+3. Launch development server:
    ```bash
    npm run dev
    ```
 
+### Customization
+- **Colors**: Modify `src/index.css` to update the global design tokens (`--accent`, `--violet`, etc.).
+- **Typography**: Change fonts in `tailwind.config.js` and `index.css`.
+- **Layouts**: Adjust `AppLayout.tsx` to modify the global sidebar/topbar structures.
+
 ## 📂 Project Structure
 
-- `src/pages`: Functional AI-ops interfaces (Dashboard, Analytics, AIAssistant, etc.)
-- `src/components`: Reusable premium UI components (Cards, Modals, Badges)
-- `src/layouts`: Persistent architectural shells (AppLayout, AuthLayout)
-- `src/store`: Global state management for system configs
+- `src/pages`: UI mocks for Dashboard, Analytics, Teams, and Settings.
+- `src/components`: The core UI library (Cards, Buttons, Modals).
+- `src/layouts`: Navigation shells for Public and Private views.
+- `src/store`: Logic for handling theme transitions and UI states.
 
 ---
 
-**Built for observers. Orchestrated for leaders.**  
-© 2026 Vantix AI Inc. All rights reserved.
+**Designed for visionaries. Built for developers.**  
+© 2026 Vantix UI Kit. High-fidelity frontend reference.
