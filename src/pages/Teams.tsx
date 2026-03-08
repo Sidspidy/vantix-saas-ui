@@ -5,7 +5,6 @@ import {
     Shield, User, UserCheck, Mail, Globe,
     Circle, AlertTriangle
 } from 'lucide-react'
-import { useThemeStore } from '../store/themeStore'
 import Button from '../components/system/Button'
 import Card from '../components/system/Card'
 import Badge from '../components/system/Badge'
@@ -74,7 +73,6 @@ const STATUS_COLORS: Record<string, string> = {
 }
 
 export default function Teams() {
-    const { theme } = useThemeStore()
     const [searchQuery, setSearchQuery] = useState('')
     const [isAddModalOpen, setIsAddModalOpen] = useState(false)
 
@@ -150,7 +148,7 @@ export default function Teams() {
                     { label: 'Total Members', value: TEAM_MEMBERS.length, icon: Users },
                     { label: 'Online Now', value: TEAM_MEMBERS.filter(m => m.status === 'online').length, icon: Globe },
                     { label: 'Pending Invites', value: '2', icon: Mail },
-                ].map((stat, i) => (
+                ].map((stat) => (
                     <Card key={stat.label} padding="sm" hoverEffect={false}>
                         <div className="flex items-center gap-3">
                             <div className="w-8 h-8 rounded-btn flex items-center justify-center"

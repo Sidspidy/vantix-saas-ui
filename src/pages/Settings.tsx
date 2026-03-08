@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import {
     User, Shield, Bell,
     Monitor, Globe, Sparkles, Plus,
-    Cloud, HardDrive, Key, Zap,
+    HardDrive, Key, Zap,
     Save, RefreshCw, LogOut,
     CheckCircle2, CreditCard, AlertTriangle
 } from 'lucide-react'

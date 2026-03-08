@@ -1,10 +1,10 @@
 import { useState, useRef, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { 
     Send, Bot, User, Sparkles, 
     Terminal, Zap, Globe, Cpu,
     Plus, History, Search, Settings,
-    MessageSquare, Command, ArrowRight
+    MessageSquare, ArrowRight
 } from 'lucide-react'
 import Card from '../components/system/Card'
 import Button from '../components/system/Button'
