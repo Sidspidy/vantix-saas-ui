@@ -1,12 +1,12 @@
 # Vantix ✦ SaaS UI Kit
 ### High-Fidelity Modern Dashboard & Design System
 
+**✦ [Live Demo →](https://vantix-saas-ui.netlify.app/)**
+
 Vantix is a premium, futuristic SaaS UI boilerplate designed for developers and designers who want to jumpstart their application's frontend with elite aesthetics. It features a "Neural-Design" aesthetic, optimized for high-performance dashboards and enterprise interfaces.
 
 > [!NOTE]  
-> This is a **Frontend-Only** UI project. It provides high-fidelity mockups and interactive components (mocked AI chat, simulated analytics) but does not include a backend or actual AI model integrations.
-
-![Vantix Preview](https://raw.githubusercontent.com/Sidspidy/vantix-saas-ui/main/public/preview.png)
+> This is a **Frontend-Only** UI project. It provides high-fidelity mockups (mocked AI chat, simulated analytics) but does not include a backend or actual AI model integrations.
 
 ## 🌌 Premium UI Sections
 
@@ -14,7 +14,7 @@ Vantix is a premium, futuristic SaaS UI boilerplate designed for developers and 
 A pre-built operational overview featuring KPI cards, team activity trackers, and sleek project grids—all using modern CSS glassmorphism and smooth hover states.
 
 ### ✦ Simulated AI Assistant (UI)
-A highly polished chat interface designed to demonstrate AI integrations. It includes "Command Mode" styling, message threading, and responsive sidebar log management (simulated).
+A highly polished chat interface designed to demonstrate AI integrations. It includes "Command Mode" styling, message threading, and responsive sidebar log management.
 
 ### ✦ Visual Data Mastery
 Custom-built SVG sparklines and multi-layered charts that respond to theme changes. Designed to show how cluster performance and regional data can be visualized beautifully.
